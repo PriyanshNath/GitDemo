@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CSS Selectors</title>
+    <link rel="stylesheet" href="cssSelector.css" />
+  </head>
+  <body>
+    <!-- 
+        >> Element Selector
+        >> IC Selector
+        >> Class Selector
+        >> Universal Selector
+        >> Nested Selector
+        >> Direct Child Selector
+        >> Descendent Selector
+    -->
+    <header>
+      <h1>Selectors in CSS</h1>
+    </header>
+    <main>
+      <article id="elementSel">
+        <h2>Element Selector</h2>
+        <p id="p1Id" class="highlighter">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum harum
+          voluptas vero labore nihil cumque velit sed ratione incidunt quisquam.
+        </p>
+      </article>
+      <article id="idSel">
+        <h2>ID Selector</h2>
+        <p id="pId">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum harum
+          voluptas vero labore nihil cumque velit sed ratione incidunt quisquam.
+        </p>
+      </article>
+      <article id="classSel">
+        <h2 class="highlighter headingStyles">Class Selector</h2>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum harum
+          voluptas vero labore nihil cumque velit sed ratione incidunt quisquam.
+        </p>
+      </article>
+      <article id="uniSel">
+        <h2>Nested Selector</h2>
+        <p id="nestedId" class="nestedClass">
+          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sint dolor
+          architecto voluptatum tenetur quisquam quia consequuntur modi nam
+          quae, accusantium nihil amet fugiat? Unde, numquam.
+        </p>
+      </article>
+      <article id="descSel">
+        <h2>Descendent Selector</h2>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis,
+          dolores! Fugiat iure illo sint eos officia atque ratione? Quisquam,
+          numquam quaerat reiciendis rerum est sint.
+        </p>
+        <section>
+          <p>
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+            Praesentium, cupiditate?
+          </p>
+          <p>
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+            Praesentium, cupiditate?
+          </p>
+          <p>
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+            Praesentium, cupiditate?
+          </p>
+        </section>
+
+        <p>
+          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sint dolor
+          architecto voluptatum tenetur quisquam quia consequuntur modi nam
+          quae, accusantium nihil amet fugiat? Unde, numquam.
+        </p>
+      </article>
+      <article id="dirSel">
+        <h2>Direct Child Selector</h2>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis,
+          dolores! Fugiat iure illo sint eos officia atque ratione? Quisquam,
+          numquam quaerat reiciendis rerum est sint.
+        </p>
+        <section>
+          <p>
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+            Praesentium, cupiditate?
+          </p>
+          <p>
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+            Praesentium, cupiditate?
+          </p>
+          <p>
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+            Praesentium, cupiditate?
+          </p>
+        </section>
+
+        <p>
+          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sint dolor
+          architecto voluptatum tenetur quisquam quia consequuntur modi nam
+          quae, accusantium nihil amet fugiat? Unde, numquam.
+        </p>
+      </article>
+    </main>
+  </body>
+</html>

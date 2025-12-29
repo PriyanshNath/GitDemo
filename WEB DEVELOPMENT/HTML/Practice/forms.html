@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms in HTML</title>
+</head>
+<body>
+    <h2>Forms in HTML</h2>
+    <form action="">
+        <label for="fname">First name: </label>
+        <input id="fname" type="text" minlength="5" maxlength="12" required placeholder="Please enter first name" name="fname" value=""/>
+        
+        <label for="mname">Middle name: </label>
+        <input id="mname" type="text" value="nigga"/>
+
+
+        <label for="lname">Last name: </label>
+        <input id="lname" type="text"/>
+
+        <br><br>
+
+        <label for="age">Age: </label>
+        <input id="age" type="number"/>
+
+        <br><br>
+
+        <label for="email">Email: </label>
+        <input id="email" type="email"/>
+
+        <br><br>
+
+        <label for="date">Date fo joining: </label>
+        <input id="date" type="date"/>
+
+        <br><br>
+
+        <label for="pw">Password: </label>
+        <input id="pw" type="password">
+
+        <br><br>
+
+        <p>Enter your Shirt Size: </p>
+        <input type="radio" name="shirtsize" id="small" value="Small"/>
+        <label for="small">Small</label>
+        <input type="radio" name="shirtsize" id="medium" checked value="Medium"/>
+        <label for="medium">Medium</label>
+        <input type="radio" name="shirtsize" id="large" value="Large"/>
+        <label for="large">Large</label>
+
+        <br><br>
+
+        <p>Please select known languages: </p>
+        <input type="checkbox" name="lang" id="English" value="English"/>
+        <label for="English">English</label>
+        <input type="checkbox" name="lang" id="Hindi" value="Hindi"/>
+        <label for="Hindi">Hindi</label>
+        <input type="checkbox" name="lang" id="Assamese" value="Assamese"/>
+        <label for="Assamese">Assamese</label>
+        <input type="checkbox" name="lang" id="German" value="German"/>
+        <label for="German">German</label>
+
+        <br><br>
+
+        <label for="color">Please select the color for your t-shirt: </label>
+        <input id="color" type="color">
+
+        <br><br>
+        <label for="PaymentOptions">Please select a payment method: </label>
+        <select id="PaymentOptions">
+            <option value="Gpay">Gpay</option>
+            <option value="PhonePe">PhonePe</option>
+            <option value="UPI">UPI</option>
+            <option value="COD">COD</option>
+        </select>
+
+        <br><br>
+
+        <label for="cmts">Please provide your valuable feedback: </label>
+        <!-- <input type="text"> -->
+         <textarea id="cmts" rows="18" cols="100" placeholder="Please provide your feedback"></textarea>
+
+        <br><br>
+
+        <input type="reset">
+        <input type="submit">
+    </form>
+</body>
+</html> 
